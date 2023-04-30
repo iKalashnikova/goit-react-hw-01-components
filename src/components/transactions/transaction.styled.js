@@ -6,14 +6,13 @@ export const TransactionHistory = styled.table`
   border-spacing: 0;
   margin: auto;
   font-size: 14px;
-  border: 1px solid black
+  border: 1px solid black;
 `;
 
 export const TableData = styled.tr`
   background-color: #918d8d;
   padding: 10px;
   font-size: 16px;
-
 `;
 
 export const TableBody = styled.tbody`
@@ -30,7 +29,7 @@ export const Type = styled.th`
 `;
 
 export const MoneyInfo = styled.td`
-width: 100px;
+  width: 100px;
   text-align: center;
   padding: 10px;
   border: 1px solid black;

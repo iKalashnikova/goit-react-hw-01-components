@@ -8,10 +8,6 @@ import friends from '../friends.json';
 import data from '../data.json';
 import transactions from "../transactions"
 
-
-
-
-
 export const App = () => {
   return (
     <div
@@ -31,7 +27,6 @@ export const App = () => {
   avatar={user.avatar}
   stats={user.stats}
       />
-
       <Statistics title="Upload stats" stats={data} />
       <FriendsList friends={friends} />
       <Transactions items={transactions} />

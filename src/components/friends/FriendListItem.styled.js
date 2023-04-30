@@ -1,8 +1,7 @@
 import styled from '@emotion/styled';
 
-
 export const Item = styled.li`
-display: flex;
+  display: flex;
   align-items: center;
   margin-bottom: 20px;
   padding: 10px;
@@ -19,16 +18,14 @@ export const Avatar = styled.img`
   margin-right: 10px;
 `;
 
-export const Name = styled.p` 
+export const Name = styled.p`
   margin-right: auto;
 `;
-
 
 export const Status = styled.span`
   width: 20px;
   height: 20px;
   border-radius: 50%;
   margin-right: 10px;
-  background-color: ${(props) => (props.isOnline ? '#42b72a' : '#e81c1c')}
+  background-color: ${props => (props.isOnline ? '#42b72a' : '#e81c1c')};
 `;
-
