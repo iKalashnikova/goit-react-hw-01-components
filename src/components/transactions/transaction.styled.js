@@ -12,7 +12,6 @@ export const TransactionHistory = styled.table`
 export const TableData = styled.tr`
   background-color: #918d8d;
   padding: 10px;
-  // border: 1px solid black;
   font-size: 16px;
 
 `;
@@ -22,10 +21,10 @@ export const TableBody = styled.tbody`
 `;
 
 export const Type = styled.th`
-  width: 200px;
+  width: 150px;
   background-color: #f0f0f0;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   padding: 10px;
   border: 1px solid black;
 `;
