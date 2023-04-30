@@ -7,7 +7,7 @@ export const Container = styled.section`
   border: 1px solid #e4e9f0;
   border-radius: 4px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-  margin: 20px;
+  margin: auto;
 `;
 
 export const Title = styled.h2`
